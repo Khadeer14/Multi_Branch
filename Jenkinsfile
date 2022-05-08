@@ -6,7 +6,7 @@ stage('ContinuousDownload_master')
    
 	 {
 	
-    git 'https://github.com/sunildevops77/maven.git'
+    git 'https://github.com/Khadeer14/Multi_Branch.git'
     
 	}
 
@@ -14,7 +14,7 @@ stage('Continuousbuild_master')
    
 	 {
 	
-   sh label: '', script: 'mvn package'
+   sh 'mvn package'
 	}
 
 
